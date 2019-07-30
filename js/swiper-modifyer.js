@@ -24,16 +24,18 @@ $('a.page').click(function(){
        
             640: {
              width: 170,
-              spaceBetween: 10,
+              spaceBetween: 0,
             },
 
             360: {
               width: 170,
-              spaceBetween: 10,
+              spaceBetween: 0,
             },
 
              320: {
-              width: 160,
+              width: 150,
+              spaceBetween: 0,
+              
              
             }
       },

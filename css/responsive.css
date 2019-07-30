@@ -25,6 +25,15 @@
 /*Common devices*/
 
 @media ( min-width: 320px) and (max-width: 480px) {
+
+
+
+
+.business-hero .navbar-light .navbar-nav .nav-link {
+  color: #333 !important;
+  padding: 10px 0;
+}
+
 .screens img {
   width: 100%;
   height: 100%;
@@ -114,7 +123,8 @@
 }
 
 .navbar-collapse {
-    margin-left: -11px;
+    background: #fff;
+    padding: 10px 20px;
 }
 
 
@@ -361,7 +371,7 @@ padding-left: 0;
 .change-mobile-logo {
     background: url(../img/mobile-logo.png) no-repeat;
     width: 100px;
-    height: 100px;
+    height: 45px;
     background-size: 85%;
     background-position: 11px 8px;
 }
@@ -451,6 +461,24 @@ padding-left: 0;
     padding: 20px;
 }
 
+.collapse.show {
+    display: block;
+    box-shadow: 0px 4px 9px #00000024;
+}
+.job-article:before {
+   
+    width: 390px;
+    height: 500px;
+    position: absolute;
+    z-index: -1;
+    background-size: 100%;
+    background-position: right bottom;
+    /* right: -250px; */
+    top: -270px;
+    left: 40px;
+    left: 0;
+}
+
 
 }
 
@@ -483,6 +511,8 @@ padding-left: 0;
 }
 
 
+/*iphone5/SE*/
+
 @media  ( min-width: 320px) and (max-width: 320px) {
  
 .swiper-full-mobile:before {
@@ -491,6 +521,46 @@ padding-left: 0;
   
   .phone-wrapper:before {
     width: 160px;
+}
+
+.swiper-full-mobile .swiper-slide {
+  height: 164px;
+}
+
+.swiper-full-mobile {
+    padding-bottom: 30px;
+}
+
+.gallery-top .swiper-slide {
+
+  width: 162px !important;
+      height: 350px;
+      object-fit: contain;
+
+}
+
+.phone-wrapper {
+    width: 150px;
+    height: 320px;
+    margin-bottom: 40px;
+}
+.with2 .credit-box {
+    top: 100px;
+}
+
+.with2>img {
+  object-fit: contain !important;
+    margin-left: 3px;
+
+}
+}
+
+
+
+@media  ( min-width: 375px) and (max-width: 380px) {
+
+.swiper-full-mobile .swiper-slide {
+  height: 193px;
 }
 
 
