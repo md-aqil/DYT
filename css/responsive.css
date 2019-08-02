@@ -31,7 +31,7 @@
 
 .business-hero .navbar-light .navbar-nav .nav-link {
   color: #333 !important;
-  padding: 10px 0;
+  padding: 10px 10px;
 }
 
 .screens img {
@@ -124,7 +124,12 @@
 
 .navbar-collapse {
     background: #fff;
-    padding: 10px 20px;
+    padding: 10px 10px;
+    position: absolute;
+    width: 90%;
+    margin: auto;
+    z-index: 10;
+    top: 85px;
 }
 
 
